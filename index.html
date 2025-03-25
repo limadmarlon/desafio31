@@ -1,961 +1,616 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Active Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>DESAFIO MARLON RUN - 3.1KM</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Active
-  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
-<body class="index-page">
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Active.</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 40
-                    },
-                    "1200": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 1
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_6.jpg" alt="Image" class="img-fluid">
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area ">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">Início</a></li>
+                                        <li><a href="Schedule.html">Lineup</a></li>
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Speakers.html">Speakers</a></li>
+                                        <li><a href="Venue.html">Venue</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                            <div class="buy_ticket">
+                                <a href="#" class="boxed-btn-white">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_7.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_8.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
             </div>
-          </div>
-          <div class="col-lg-4 order-lg-1">
-            <span class="section-subtitle" data-aos="fade-up">Welcome</span>
-            <h1 class="mb-4" data-aos="fade-up">
-              Excepteur sint occaecat cupidatat non proident
-            </h1>
-            <p data-aos="fade-up">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated they
-              live in Bookmarksgrove right at the coast of the Semantics, a large
-              language ocean.
-            </p>
-            <p class="mt-5" data-aos="fade-up">
-              <a href="#" class="btn btn-get-started">Get Started</a>
-            </p>
-          </div>
         </div>
-      </div>
-    </section><!-- /About Section -->
+    </header>
+    <!-- header-end -->
 
-    <!-- About 2 Section -->
-    <section id="about-2" class="about-2 section light-background">
-
-      <div class="container">
-        <div class="content">
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
-              <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
-                <div class="img">
-                  <img src="assets/img/img_v_3.jpg" alt="circle image" class="img-fluid">
-                </div>
-              </div>
-            </div>
-
-            <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
-              <div class="px-3">
-                <span class="content-subtitle">Our Mission</span>
-                <h2 class="content-title text-start">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands.
-                </h2>
-                <p class="lead">
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country.
-                </p>
-                <p class="mb-5">
-                  The Big Oxmox advised her not to do so, because there were
-                  thousands of bad Commas, wild Question Marks and devious Semikoli.
-                </p>
-                <p>
-                  <a href="#" class="btn-get-started">Get Started</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /About 2 Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-center">
-
-          <div class="col-lg-3">
-            <div class="services-item" data-aos="fade-up">
-              <div class="services-icon">
-                <i class="bi bi-bullseye"></i>
-              </div>
-              <div>
-                <h3>Technology</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="services-item" data-aos="fade-up" data-aos-delay="100">
-              <div class="services-icon">
-                <i class="bi bi-command"></i>
-              </div>
-              <div>
-                <h3>Web Design</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="services-item" data-aos="fade-up" data-aos-delay="200">
-              <div class="services-icon">
-                <i class="bi bi-bar-chart"></i>
-              </div>
-              <div>
-                <h3>Branding</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- /Services Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container">
-
-        <div class="row gy-4 justify-content-center">
-
-          <div class="col-lg-5">
-            <div class="images-overlap">
-              <img src="assets/img/img_v_1.jpg" alt="student" class="img-fluid img-1" data-aos="fade-up">
-            </div>
-          </div>
-
-          <div class="col-lg-4 ps-lg-5">
-            <span class="content-subtitle">Why Us</span>
-            <h2 class="content-title">Far far away Behind the Word Mountains</h2>
-            <p class="lead">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia.
-            </p>
-            <p class="mb-5">
-              There live the blind texts. Separated they live in Bookmarksgrove
-              right at the coast of the Semantics, a large language ocean.
-            </p>
-            <div class="row mb-5 count-numbers">
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="3919" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Coffee</span>
-              </div>
-              <!-- End Stats Item -->
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="2831" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Codes</span>
-              </div>
-              <!-- End Stats Item -->
-
-              <!-- Start Stats Item -->
-              <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
-                <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1914" data-purecounter-duration="1" class="purecounter number"></span>
-                <span class="d-block">Projects</span>
-              </div>
-              <!-- End Stats Item -->
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- /Stats Section -->
-
-    <!-- Blog Posts Section -->
-    <section id="blog-posts" class="blog-posts section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <p>Recent Posts</p>
-        <h2>Blog Posts</h2>
-      </div><!-- End Section Title -->
-      <div class="container">
-
-        <div class="row gy-4">
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-              <a href="#" class="thumb d-block"><img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid rounded"></a>
-
-              <div class="post-content">
-                <div class="meta">
-                  <a href="#" class="cat">Development</a> •
-                  <span class="date">July 20, 2020</span>
-                </div>
-                <h3><a href="#">There live the blind texts they live</a></h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries
-                  Vokalia and Consonantia, there live the blind texts.
-                </p>
-
-                <div class="d-flex author align-items-center">
-                  <div class="pic">
-                    <img src="assets/img/team/team-3.jpg" alt="Image" class="img-fluid rounded-circle">
-                  </div>
-                  <div class="author-name">
-                    <strong class="d-block">Winston Gold</strong>
-                    <span class="">Lead Product Designer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-              <a href="#" class="thumb d-block"><img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid rounded"></a>
-
-              <div class="post-content">
-                <div class="meta">
-                  <a href="#" class="cat">Development</a> •
-                  <span class="date">July 20, 2020</span>
-                </div>
-                <h3><a href="#">There live the blind texts they live</a></h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries
-                  Vokalia and Consonantia, there live the blind texts.
-                </p>
-
-                <div class="d-flex author align-items-center">
-                  <div class="pic">
-                    <img src="assets/img/team/team-2.jpg" alt="Image" class="img-fluid rounded-circle">
-                  </div>
-                  <div class="author-name">
-                    <strong class="d-block">Winston Gold</strong>
-                    <span class="">Lead Product Designer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
-              <a href="#" class="thumb d-block"><img src="assets/img/img_h_3.jpg" alt="Image" class="img-fluid rounded"></a>
-
-              <div class="post-content">
-                <div class="meta">
-                  <a href="#" class="cat">Development</a> •
-                  <span class="date">July 20, 2020</span>
-                </div>
-                <h3><a href="#">There live the blind texts they live</a></h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries
-                  Vokalia and Consonantia, there live the blind texts.
-                </p>
-
-                <div class="d-flex author align-items-center">
-                  <div class="pic">
-                    <img src="assets/img/team/team-1.jpg" alt="Image" class="img-fluid rounded-circle">
-                  </div>
-                  <div class="author-name">
-                    <strong class="d-block">Winston Gold</strong>
-                    <span class="">Lead Product Designer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Blog Posts Section -->
-
-    <!-- Tabs Section -->
-    <section id="tabs" class="tabs section light-background">
-
-      <div class="container">
-        <div class="row gap-x-lg-4 justify-content-between">
-          <div class="col-lg-4 js-custom-dots">
-            <a href="#" class="service-item link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
-              <div class="service-icon color-1 mb-4">
-                <i class="bi bi-alarm"></i>
-              </div>
-              <!-- /.icon -->
-              <div class="service-contents">
-                <h3>Modern and clean design</h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries .
-                </p>
-              </div>
-              <!-- /.service-contents-->
-            </a>
-            <!-- /.service -->
-
-            <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
-              <div class="service-icon color-2 mb-4">
-                <i class="bi bi-bag-check"></i>
-              </div>
-              <!-- /.icon -->
-              <div class="service-contents">
-                <h3>Sell Products</h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries .
-                </p>
-              </div>
-              <!-- /.service-contents-->
-            </a>
-            <!-- /.service -->
-
-            <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
-              <div class="service-icon color-3 mb-4">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <!-- /.icon -->
-              <div class="service-contents">
-                <h3>Success Every Day</h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries .
-                </p>
-              </div>
-              <!-- /.service-contents-->
-            </a>
-            <!-- /.service -->
-
-            <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
-              <div class="service-icon color-4 mb-4">
-                <i class="bi bi-easel"></i>
-              </div>
-              <!-- /.icon -->
-              <div class="service-contents">
-                <h3>Bring Ideas to Life</h3>
-                <p>
-                  Far far away, behind the word mountains, far from the countries .
-                </p>
-              </div>
-              <!-- /.service-contents-->
-            </a>
-            <!-- /.service -->
-          </div>
-
-          <div class="col-lg-8">
-            <div class="swiper init-swiper-tabs">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoHeight": true,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 40
-                    },
-                    "1200": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 1
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_1.jpg" alt="Image" class="img-fluid">
-                  <div class="p-4">
-                    <h3 class="text-black h5 mb-3">Modern and clean design</h3>
+    <!-- slider_area_start -->
+    <div class="slider_area slider_bg_1">
+        <div class="slider_text">
+            <div class="container">
+                <div class="position_relv">
+                    <h1 class="opcity_text d-none d-lg-block">CONVITE</h1>
                     <div class="row">
-                      <div class="col-lg-8">
-                        <p>
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the blind
-                          texts. Separated they live in Bookmarksgrove right at the
-                          coast of the Semantics, a large language ocean.
-                        </p>
-                        <p>
-                          A small river named Duden flows by their place and
-                          supplies it with the necessary regelialia. It is a
-                          paradisematic country, in which roasted parts of sentences
-                          fly into your mouth.
-                        </p>
-                      </div>
-                      <div class="col-lg-4">
-                        <ul class="list-unstyled list-check">
-                          <li>Far far away, behind the word</li>
-                          <li>Far from the countries Vokalia</li>
-                          <li>Separated they live in Bookmarksgrove</li>
-                        </ul>
-                      </div>
+                        <div class="col-xl-9">
+                            <div class="title_text">
+                                <h3>Desafio 3.1 km <br>
+                                    Marlon RUN <br>
+                                    2025</h3>
+                                <a href="#" class="boxed-btn-white">Inscreva-se</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_3.jpg" alt="Image" class="img-fluid">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Tabs Section -->
-
-    <!-- Services 2 Section -->
-    <section id="services-2" class="services-2 section">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="fade-up">
-          <div class="col-md-6 col-lg-4">
-            <span class="content-subtitle">Our Services</span>
-            <h2 class="content-title">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia
-            </h2>
-            <p class="lead">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-            <p class="mb-5">
-              Separated they live in Bookmarksgrove right at the coast of the
-              Semantics, a large language ocean.
-            </p>
-            <p>
-              <a href="#" class="btn btn-get-started">Get Started</a>
-            </p>
-          </div>
-          <div class="col-md-6 col-lg-6 ps-lg-5">
-            <div class="row">
-              <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                <div class="services-item" data-aos="fade-up" data-aos-delay="">
-                  <div class="services-icon">
-                    <i class="bi bi-search"></i>
-                  </div>
-                  <div>
-                    <h3>Square</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                <div class="services-item" data-aos="fade-up" data-aos-delay="100">
-                  <div class="services-icon">
-                    <i class="bi bi-command"></i>
-                  </div>
-                  <div>
-                    <h3>Technology</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                <div class="services-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="services-icon">
-                    <i class="bi bi-grid"></i>
-                  </div>
-                  <div>
-                    <h3>Brilliant Ideas</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-6 col-sm-6 col-md-6 col-lg-6">
-                <div class="services-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="services-icon">
-                    <i class="bi bi-globe"></i>
-                  </div>
-                  <div>
-                    <h3>Blueprint</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Services 2 Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <p>Plans</p>
-        <h2>Pricing Table</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item recommended">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
         </div>
 
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <p>Plans</p>
-        <h2>Frequently Asked Questions</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-12">
-            <div class="custom-accordion" id="accordion-faq">
-              <div class="accordion-item">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                    How to download and register?
-                  </button>
-                </h2>
-
-                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
-                  <div class="accordion-body">
-                    Far far away, behind the word mountains, far from the countries
-                    Vokalia and Consonantia, there live the blind texts. Separated
-                    they live in Bookmarksgrove right at the coast of the Semantics,
-                    a large language ocean.
-                  </div>
-                </div>
-              </div>
-              <!-- .accordion-item -->
-
-              <div class="accordion-item">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
-                How to create your paypal account?
-              </button>
-            </h2>
-            <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
-                    <div class="accordion-body">
-                      A small river named Duden flows by their place and supplies it
-                      with the necessary regelialia. It is a paradisematic country, in
-                      which roasted parts of sentences fly into your mouth.
+        <div class="countDOwn_area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="single_date">
+                            <i class="ti-location-pin"></i>
+                            <span>Praia de Ponta Verde, Maceió</span>
+                        </div>
                     </div>
-              </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="single_date">
+                            <i class="ti-alarm-clock"></i>
+                            <span>06:00 04 Abr 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-5 col-md-12 col-lg-5">
+                        <span id="clock"></span>
+                    </div>
+
+                </div>
             </div>
-            <!-- .accordion-item -->
-
-            <div class="accordion-item">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                  How to link your paypal and bank account?
-                </button>
-              </h2>
-
-              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
-                <div class="accordion-body">
-                  When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the subline
-                  of her own road, the Line Lane. Pityful a rethoric question ran
-                  over her cheek, then she continued her way.
-                </div>
-              </div>
-            </div>
-            <!-- .accordion-item -->
-
-          </div>
         </div>
-      </div>
-      </div>
-    </section><!-- /Faq Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <p>Happy Customers</p>
-        <h2>Testimonials</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 40
-                    },
-                    "1200": {
-                      "slidesPerView": 1,
-                      "spaceBetween": 1
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="testimonial mx-auto">
-                    <figure class="img-wrap">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <h3 class="name">Adam Aderson</h3>
-                    <blockquote>
-                      <p>
-                        “There live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a large
-                        language ocean.”
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="testimonial mx-auto">
-                    <figure class="img-wrap">
-                      <img src="assets/img/testimonials/testimonials-2.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <h3 class="name">Lukas Devlin</h3>
-                    <blockquote>
-                      <p>
-                        “There live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a large
-                        language ocean.”
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="testimonial mx-auto">
-                    <figure class="img-wrap">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" alt="Image" class="img-fluid">
-                    </figure>
-                    <h3 class="name">Kayla Bryant</h3>
-                    <blockquote>
-                      <p>
-                        “There live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a large
-                        language ocean.”
-                      </p>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Testimonials Section -->
-
-  </main>
-
-  <footer id="footer" class="footer light-background">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
-          <div class="widget">
-            <h3 class="widget-heading">About Us</h3>
-            <p class="mb-4">
-              There live the blind texts. Separated they live in Bookmarksgrove
-              right at the coast of the Semantics, a large language ocean.
-            </p>
-            <p class="mb-0">
-              <a href="#" class="btn-learn-more">Learn more</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ps-lg-5 mb-3 mb-md-0">
-          <div class="widget">
-            <h3 class="widget-heading">Navigation</h3>
-            <ul class="list-unstyled float-start me-5">
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Find Buyers</a></li>
-            </ul>
-            <ul class="list-unstyled float-start">
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 pl-lg-5">
-          <div class="widget">
-            <h3 class="widget-heading">Recent Posts</h3>
-            <ul class="list-unstyled footer-blog-entry">
-              <li>
-                <span class="d-block date">May 3, 2020</span>
-                <a href="#">There live the Blind Texts</a>
-              </li>
-              <li>
-                <span class="d-block date">May 3, 2020</span>
-                <a href="#">Separated they live in Bookmarksgrove right</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 pl-lg-5">
-          <div class="widget">
-            <h3 class="widget-heading">Connect</h3>
-            <ul class="list-unstyled social-icons light mb-3">
-              <li>
-                <a href="#"><span class="bi bi-facebook"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-twitter-x"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="widget">
-            <div class="footer-subscribe">
-              <h3 class="widget-heading">Subscribe</h3>
-              <form action="forms/newsletter.php" method="post" class="php-email-form">
-                <div class="mb-2">
-                  <input type="text" class="form-control" name="email" placeholder="Enter your email">
-
-                  <button type="submit" class="btn btn-link">
-                    <span class="bi bi-arrow-right"></span>
-                  </button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your subscription request has been sent. Thank you!
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-        </div>
-      </div>
     </div>
-  </footer>
+    <!-- slider_area_end -->
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- about_area_start -->
+    <div class="about_area">
+        <div class="shape-1 d-none d-xl-block">
+            <img src="img/about/shap1.png" alt="">
+        </div>
+        <div class="shape-2 d-none d-xl-block">
+            <img src="img/about/shap2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_thumb">
+                        <!-- <img src="img/about/about.png" alt=""> -->
+                        <img src="img/speakers/eu1.jpeg" alt=""
+                            style="border-radius: 5%; width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-md-6">
+                    <div class="about_info">
+                        <div class="section_title">
+                            <span class="sub_heading">Bem-vindo</span>
+                            <h3>Ao maior evento de corrida <br>
+                                e aniversário <br>
+                                de 2025</h3>
+                        </div>
+                        <p>Prepare-se para uma manhã de energia e celebração! Nossa corrida de 3,1km é perfeita para
+                            corredores de todos os níveis, desde os iniciantes até os mais experientes. Após cruzar a
+                            linha de chegada, celebre suas conquistas com um delicioso café da manhã de
+                            confraternização, onde você poderá relaxar, trocar histórias e recarregar as energias.
+                            Junte-se a nós para uma experiência inesquecível de esporte, diversão e sabor!</p>
+                        <a href="#" class="boxed-btn-red">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about_area_end -->
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- speakers_start -->
+    <!-- <div class="speakers_area">
+        <h1 class="horizontal_text d-none d-lg-block">
+            Speakers
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="serction_title_large mb-95">
+                        <h3>
+                            Confirmados
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-5 col-md-6">
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="img/speakers/1.png" alt="">
+                            <div class="hover_overlay">
+                                <div class="social_icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Jonson Miller</h3>
+                            <p>Creative Director</p>
+                        </div>
+                    </div>
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="img/speakers/3.png" alt="">
+                            <div class="hover_overlay">
+                                <div class="social_icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Albert Jackey</h3>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-2 col-md-6">
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="img/speakers/2.png" alt="">
+                            <div class="hover_overlay">
+                                <div class="social_icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Marked Macau</h3>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class="single_speaker">
+                        <div class="speaker_thumb">
+                            <img src="img/speakers/1.png" alt="">
+                            <div class="hover_overlay">
+                                <div class="social_icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="speaker_name text-center">
+                            <h3>Kelvin Cooper</h3>
+                            <p>Art Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- speakers_end-->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- event_area_start -->
+    <div class="event_area">
+        <h1 class="vr_text d-none d-lg-block">LINEUP DO EVENTO</h1>
+        <div class="container">
+            <div class="double_line">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="date">
+                            <h3>28 Mar 2025</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="single_speaker">
+                            <!-- <img src="img/speakers/seaker1.png" alt=""> -->
+                            <img src="img/speakers/seaker0.jpeg" alt=""
+                                style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;">
+                            <div class="speaker-name">
+                                <div class="heading d-flex justify-content-between align-items-center">
+                                    <span>Liberação do Design da Camisa</span>
+                                    <div class="time">
+                                        15:00
+                                    </div>
+                                </div>
+                                <p>Prepare-se para vestir a energia da minha corrida! Nesta data, divulgaremos o modelo
+                                    oficial da camisa do evento. Uma peça exclusiva, pensada para o seu conforto e
+                                    estilo, que marcará a sua participação nesta jornada inesquecível. Fique ligado em
+                                    nossas redes sociais e site para não perder nenhum detalhe!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="date">
+                        <h3>03 Abr 2025</h3>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9">
+                    <div class="single_speaker">
+                        <img src="img/speakers/seaker0.jpeg" alt=""
+                            style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;">
+                        <div class="speaker-name">
+                            <div class="heading d-flex justify-content-between align-items-center">
+                                <span>Entrega dos Kits</span>
+                                <div class="time">
+                                    07-19h
+                                </div>
+                            </div>
+                            <p>Chegou a hora de garantir o seu kit de participação! Nos dias 03 e 04, realizaremos a
+                                entrega dos kits, que incluem a sua camisa oficial, número de peito, chip de
+                                cronometragem e outros brindes exclusivos. Este é o momento de sentir a emoção da
+                                corrida se aproximando e se preparar para o grande dia. Não se esqueça de trazer seu
+                                documento de identificação e comprovante de inscrição.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="date">
+                        <h3>04 Abr 2025</h3>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9">
+                    <div class="single_speaker">
+                        <img src="img/speakers/seaker0.jpeg" alt=""
+                            style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;">
+                        <div class="speaker-name">
+                            <div class="heading d-flex justify-content-between align-items-center">
+                                <span>A CORRIDA!!!</span>
+                                <div class="time">
+                                    06:00
+                                </div>
+                            </div>
+                            <p>O grande dia chegou! Prepare-se para superar seus limites e viver momentos inesquecíveis.
+                                A largada será às 06h30, em frente ao Palato Praia. Escolha sua categoria (3.1 km ou 31
+                                km), aqueça os músculos e deixe a adrenalina tomar conta. Juntos, vamos cruzar a linha
+                                de chegada e celebrar a sua conquista (e o meu aniversário). Conto com a sua energia!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single_speaker">
+                        <img src="img/speakers/seaker0.jpeg" alt=""
+                            style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;">
+                        <div class="speaker-name">
+                            <div class="heading d-flex justify-content-between align-items-center">
+                                <span>Café da Manhã Pós-Corrida</span>
+                                <div class="time">
+                                    07:00
+                                </div>
+                            </div>
+                            <p>Após a emoção da corrida, convido você para um delicioso café da manhã de
+                                confraternização. Um momento para relaxar, celebrar suas conquistas, trocar experiências
+                                com outros corredores e recarregar as energias. Desfrute de um cardápio especial,
+                                preparado com carinho para celebrar a sua participação.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- event_area_end -->
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+    <!-- resister_book_start -->
+    <div class="resister_book resister_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="resister_text text-center">
+                        <h3>Registre-se aqui! <br>
+                            Confirme a sua presença</h3>
+                        <a href="#" class="boxed-btn-white">Inscreva-se </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- resister_book_end -->
+
+    <!-- brand_area_start -->
+    <!-- <div class="brand_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="brand_active owl-carousel">
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/1.png" alt="">
+                        </div>
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/2.png" alt="">
+                        </div>
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/3.png" alt="">
+                        </div>
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/4.png" alt="">
+                        </div>
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/5.png" alt="">
+                        </div>
+                        <div class="single_brand text-center">
+                            <img src="img/barnd/6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- brand_area_end -->
+
+    <!-- faq_area_Start -->
+    <div class="faq_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="serction_title_large mb-95">
+                        <h3>
+                            Perguntas Frequentes
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                                        <img src="img/barnd/info.png" alt=""> Preciso mesmo correr os 3,1km? Não posso
+                                        só ir direto para o café da manhã?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion"
+                                style="">
+                                <div class="card-body">
+                                    Tecnicamente, você pode. Mas aí perderia a chance de queimar umas calorias para
+                                    justificar o banquete pós-corrida. E, vamos ser sinceros, a medalha de 'Participante
+                                    Honorário do Café da Manhã' não tem o mesmo brilho.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <img src="img/barnd/info.png" alt="">E se chover no dia da corrida? A gente
+                                        corre na lama? Teremos toucas de natação?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Chuva? Que nada! Estamos combinando com São Pedro para um dia ensolarado. Mas, se
+                                    ele não colaborar, prepare-se para uma aventura épica na lama! E não, não teremos
+                                    toucas de natação. Mas quem sabe você não descobre um talento oculto para nado
+                                    sincronizado?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <img src="img/barnd/info.png" alt=""> O café da manhã pós-corrida é 'fitness' ou
+                                        posso me jogar nos carboidratos sem culpa?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Depois de correr 3,1km, você merece um banquete de rei (ou rainha)! Teremos opções
+                                    para todos os gostos, desde frutas e iogurte até pães, bolos e outras delícias.
+                                    Afinal, a gente corre para comer, certo?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="heading_4">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
+                                        <img src="img/barnd/info.png" alt=""> Se eu me perder no percurso, alguém me
+                                        resgata de helicóptero?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse_4" class="collapse" aria-labelledby="heading_4" data-parent="#accordion"
+                                style="">
+                                <div class="card-body">
+                                    Helicóptero? Que luxo! Teremos um bombeiro (e aniversariante) que estará disputando
+                                    com você. Mas, se você se perder mesmo, não se preocupe:
+                                    a gente manda um drone com um GPS e um sanduíche para te resgatar. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faq_area_end -->
+
+    <!-- footer_start -->
+    <footer class="footer footer_bg_1">
+        <div class="circle_ball d-none d-lg-block">
+            <img src="img/banner/footer_ball.png" alt="">
+        </div>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Siga-nos
+                            </h3>
+                            <ul>
+                                <li><a target="_blank" href="#">Twitter</a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/limamaarlon/">Instagram</a></li>
+                                <li><a target="_blank" href="#">Youtube</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Links
+                            </h3>
+                            <ul>
+                                <li><a target="_blank" href="schedule.html">Schedule</a></li>
+                                <li><a target="_blank" href="speakers.html">Speakers</a></li>
+                                <li><a target="_blank" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Venue
+                            </h3>
+                            <p>
+                                200, D-block, Green lane USA <br>
+                                edumark@contact.com <br>
+                                +10 367 467 8934
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end -->
+
+
+
+
+
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
 
 </body>
 
